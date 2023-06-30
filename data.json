@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "V1flix",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2020/01/11/1364296/58eb88e16c1dcc64860361884206456e-700.jpg",
+    "status": "ongoing",
+    "url": "https://v1flix.vercel.app/",
+    "description": "lorem",
+    "listTech": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "id": "2",
+    "name": "V1flix",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2020/01/11/1364296/58eb88e16c1dcc64860361884206456e-700.jpg",
+    "status": "ongoing",
+    "url": "https://v1flix.vercel.app/",
+    "description": "lorem",
+    "listTech": ["HTML", "CSS", "Javascript"]
+  }
+]

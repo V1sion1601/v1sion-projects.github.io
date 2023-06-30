@@ -1,7 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Gudea&family=Lobster+Two&family=Signika+Negative&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   margin: 0 0;
+}
+
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #b1a7ff;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.75s ease-out forwards;
 }
